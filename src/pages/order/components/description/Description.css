@@ -1,0 +1,48 @@
+.description {
+  display: flex;
+  padding: 1em;
+  gap: 1em;
+}
+.infoContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.fa-location-arrow {
+  color: var(--baseColor) !important; 
+}
+.home {
+  font-weight: bold;
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+}
+.fa-chevron-down {
+  font-size: 15px;
+  color: black !important;
+}
+
+.search {
+  display: flex;
+  width: max-content;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.fa-magnifying-glass {
+  color: gray !important;
+}
+.fa-bitcoin {
+  font-size: 20px;
+  border-radius: 50%;
+  outline: 1px solid black;
+  color: var(--baseColor);
+}
+.coin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  display: flex;
+}

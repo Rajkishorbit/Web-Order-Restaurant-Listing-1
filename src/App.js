@@ -6,6 +6,7 @@ import MyFavourites from "./favourites";
 import MyDonation from "./donation";
 import MyOrder from "./order";
 import MyGift from "./gift";
+import Order from "./pages/order/Order";
 function App() {
   return (
     
@@ -27,7 +28,7 @@ function App() {
 <Routes>
 <Route exact path="/favourites" element={<MyFavourites/>} />
 <Route exact path="/donation" element={<MyDonation/>} />
-<Route exact path="/order" element={<MyOrder/>} />
+<Route exact path="/order" element={<Order/>} />
 <Route exact path="/gift" element={<MyGift/>} />
 </Routes>
 </HashRouter>
