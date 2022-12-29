@@ -1,5 +1,10 @@
 import React from "react";
+import { HashRouter } from "react-router-dom";
 import "./Navbar.css";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import MyFavourites from "../../../../favourites";
+import Order from "../../Order";
 
 export const Navbar = () => {
   return (
@@ -9,10 +14,14 @@ export const Navbar = () => {
           <i class="fa-solid fa-star"></i>
         </div>
         <div className="center">
+
+
+
           <h2>Favorites</h2>
           <h2>Donation</h2>
           <h2>Order</h2>
           <h2>Gift</h2>
+
         </div>
         <div className="right">
           <div className="bellContainer">
