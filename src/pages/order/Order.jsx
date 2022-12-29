@@ -6,6 +6,7 @@ import { Navbar } from "./components/navbar/Navbar";
 function Order() {
   return (
     <div className="order">
+    
       <Navbar/>
       <Description/>
       <FoodInfo/>
