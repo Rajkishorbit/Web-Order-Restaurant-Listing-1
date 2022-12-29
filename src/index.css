@@ -5,7 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+
   /* background-color: #eeeee4; */
+
 }
 
 code {
@@ -14,13 +17,34 @@ code {
 }
 #mynav {
   background-color: yellow;
+  text-decoration-color: whitesmoke;
   padding: 10px; ;
   margin:0px ;
-  margin-left: 108px;
-  margin-right: 199px;
+  
+  
  text-align: center;
  
 }
+.fa-location-arrow{
+  color: yellow;
+}
+.fa-magnifying-glass{
+  float:right ;
+
+}
+.fa-bitcoin{
+  float:right;
+  color: yellow;
+}
+.fa-angle-right{ 
+  top:240px;
+  float: right;
+}
+.fa-star{
+  align-items: right;
+}
+
+
 .mylink {
   margin: 25px;
  

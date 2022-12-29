@@ -6,7 +6,9 @@ import MyFavourites from "./favourites";
 import MyDonation from "./donation";
 import MyOrder from "./order";
 import MyGift from "./gift";
+
 import Order from "./pages/order/Order";
+
 function App() {
   return (
     
@@ -15,13 +17,12 @@ function App() {
 <nav id="mynav">
 
 
- 
+
 <Link to="/favourites" className="mylink">Favourites</Link>
 <Link to="/donation" className="mylink">Donation</Link>
 <Link to="/order" className="mylink">Order</Link>
 <Link to="/gift" className="mylink">Gift</Link>
-<BellIcon width='40' active={true} animate={true} />
-  <i class="cis-cart"></i>
+
   
 
 </nav>
@@ -30,6 +31,7 @@ function App() {
 <Route exact path="/donation" element={<MyDonation/>} />
 <Route exact path="/order" element={<Order/>} />
 <Route exact path="/gift" element={<MyGift/>} />
+
 </Routes>
 </HashRouter>
     
